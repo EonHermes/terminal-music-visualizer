@@ -1,0 +1,38 @@
+[package]
+name = "terminal_music_visualizer"
+version = "0.1.0"
+edition = "2021"
+description = "A beautiful Rust TUI music visualizer with real-time FFT analysis and multiple visualization modes"
+authors = ["Eon Hermes"]
+
+[dependencies]
+# Terminal handling
+crossterm = "0.27"
+
+# Audio processing
+rodio = "0.17"
+hound = "3.5" # WAV support
+
+# FFT implementation
+rustfft = "6.1"
+
+# Color handling
+colored = "2.0"
+
+# Configuration
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+
+# Error handling
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Real-time processing
+crossbeam-channel = "0.5"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "fft_benchmarks"
+harness = false
