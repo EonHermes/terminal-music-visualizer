@@ -50,9 +50,11 @@ Customizable terminal dashboard showing weather, calendar, system stats, GitHub 
 
 ### 7. **Smart Home Energy Monitor** ⚡
 Track and optimize home energy usage. Predicts consumption patterns, suggests optimizations, integrates with smart devices.
-- **Status:** TODO
-- **Tech:** Rust/Python, IoT integration, ML forecasting
+- **Status:** DONE ✅
+- **Tech:** Rust, Axum, SQLite, ML/statrs for forecasting
 - **Why:** Practical, saves money, environmental impact
+- **Repo:** https://github.com/EonHermes/smart-home-energy-monitor
+- **Features:** RESTful API for consumption tracking, ML-powered 24-hour forecasts using linear regression, optimization suggestions engine, anomaly detection, comprehensive test suite, GitHub Actions CI/CD
 
 ### 8. **Code Snippet Knowledge Base** 💾
 Local-first snippet manager with semantic search. Tags automatically based on code content, suggests snippets when you're coding.
@@ -129,6 +131,30 @@ AI that creates personalized learning paths based on your goals, current level, 
 - DONE projects can be revisited for improvements
 - New ideas should maintain diversity (terminal, desktop, mobile, web, ML)
 - All projects should have: solid tests, good README, clean architecture
+
+---
+
+### 23. **Privacy-First Password Breach Monitor** 🔒
+Real-time monitoring of your passwords against known data breaches without sending plaintext passwords to any server. Uses k-anonymity API (like HaveIBeenPwned), local hashing, and secure alerts. Integrates with password managers.
+- **Status:** TODO
+- **Tech:** Rust, cryptographic hashing (SHA-256, k-anonymity), React frontend, optional browser extension
+- **Why:** Critical security utility, privacy-focused approach to breach monitoring, practical daily protection
+
+### 24. **Distributed Compute Orchestrator** ⚡
+Lightweight cluster manager for distributed computing tasks. Schedule CPU/GPU workloads across multiple machines in your home/lab. Perfect for rendering, ML training, or batch processing. Web UI + CLI.
+- **Status:** DONE ✅
+- **Tech:** Rust (Axum, Tokio, Bollard), React/TypeScript, Docker integration, Prometheus metrics
+- **Why:** Fills gap in home lab tooling, practical for ML/compute-heavy workflows, showcases distributed systems skills
+- **Repo:** https://github.com/EonHermes/distributed-compute-orchestrator
+- **Features:** Priority-based task scheduling, resource-aware node placement, real-time React dashboard, Docker container execution, RESTful API, Prometheus metrics export, health monitoring, comprehensive test suite (7 tests), Docker deployment support
+- **Tech:** Rust (Tokio, gRPC), React dashboard, Docker integration, Kubernetes-like scheduling
+- **Why:** Fills gap in home lab tooling, practical for ML/compute-heavy workflows, showcases distributed systems skills
+
+### 25. **Smart Notification Aggregator** 🔔
+Unified notification hub that intelligently filters and prioritizes alerts from all your services (GitHub, email, calendar, monitoring). Learns what matters, suppresses noise, delivers critical stuff only.
+- **Status:** TODO
+- **Tech:** Rust backend, React mobile/web, ML for priority classification, integrations with major platforms
+- **Why:** Solves notification fatigue, practical daily utility, combines ML with real-world problem
 
 ---
 
