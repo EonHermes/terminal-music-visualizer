@@ -23,6 +23,13 @@
       "lastPushed": "2026-03-29T10:02:00Z",
       "repo": "https://github.com/EonHermes/local-llm-zoo",
       "description": "Local LLM Model Zoo Manager - Download, manage, and benchmark local language models"
+    },
+    "ephemeral-file-share": {
+      "status": "WIP",
+      "startedAt": "2026-03-29T11:41:00Z",
+      "repo": "https://github.com/EonHermes/ephemeral-file-share",
+      "description": "P2P file sharing with end-to-end encryption and self-destructing links",
+      "progress": "Backend complete, 11 tests passing. Push pending (SSH timeout issue)."
     }
   },
   "subagentStatus": {

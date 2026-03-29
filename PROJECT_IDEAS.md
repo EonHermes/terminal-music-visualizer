@@ -163,8 +163,10 @@ GUI tool to download, manage, and benchmark local LLM models. One-click model sw
 
 ### 22. **Ephemeral File Sharing Network** 📡
 Peer-to-peer file sharing without central servers. End-to-end encrypted, self-destructing links, QR code generation for quick transfers. Works even behind NAT with relay fallback.
-- **Status:** TODO
+- **Status:** WIP 🔨
 - **Tech:** Rust (libp2p), WebRTC, React frontend, encryption crates
 - **Why:** Privacy-focused, explores P2P networking, practical for secure transfers
+- **Repo:** https://github.com/EonHermes/ephemeral-file-share
+- **Progress:** Backend complete with all tests passing. Features: Axum HTTP API, ChaCha20-Poly1305 encryption, in-memory storage with auto-expiration, libp2p P2P layer, QR code generation, React frontend UI. 11 unit tests passing.
 
 ---
