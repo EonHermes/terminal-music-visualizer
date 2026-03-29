@@ -22,10 +22,23 @@ A beautiful, real-time music visualizer built in Rust that brings your terminal 
 
 - Rust 1.70 or later
 - Cargo (Rust package manager)
+- **System dependencies** (for audio support):
+  - Linux: `pkg-config`, `libasound2-dev` (ALSA development files)
+  - macOS: Xcode command line tools
+  - Windows: Visual Studio Build Tools
 
 ```bash
 # Install Rust if not already installed
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Linux (Ubuntu/Debian)
+sudo apt install pkg-config libasound2-dev
+
+# macOS
+xcode-select --install
+
+# Windows
+# Install Visual Studio Build Tools with C++ workload
 ```
 
 ### Build from Source
