@@ -58,7 +58,7 @@ Track and optimize home energy usage. Predicts consumption patterns, suggests op
 
 ### 8. **Code Snippet Knowledge Base** 💾
 Local-first snippet manager with semantic search. Tags automatically based on code content, suggests snippets when you're coding.
-- **Status:** TODO
+- **Status:** WIP 🔨
 - **Tech:** Rust, SQLite, embeddings for semantic search
 - **Why:** Never lose good code again
 
@@ -152,7 +152,7 @@ Lightweight cluster manager for distributed computing tasks. Schedule CPU/GPU wo
 
 ### 25. **Smart Notification Aggregator** 🔔
 Unified notification hub that intelligently filters and prioritizes alerts from all your services (GitHub, email, calendar, monitoring). Learns what matters, suppresses noise, delivers critical stuff only.
-- **Status:** TODO
+- **Status:** WIP 🔨
 - **Tech:** Rust backend, React mobile/web, ML for priority classification, integrations with major platforms
 - **Why:** Solves notification fatigue, practical daily utility, combines ML with real-world problem
 
@@ -173,7 +173,11 @@ Browser-based collaborative whiteboard specifically for code discussions. Real-t
 
 ### 20. **Biohacking Dashboard** 💪
 Track health metrics (sleep, exercise, nutrition, supplements) with ML-powered insights. Integrates with wearables, suggests optimizations based on patterns. Privacy-first local storage option.
-- **Status:** TODO
+- **Status:** DONE ✅
+- **Tech:** Rust/Axum backend, SQLite, statrs for ML analysis
+- **Why:** Combines health tech + ML + practical daily utility, growing market
+- **Repo:** https://github.com/EonHermes/biohacking-dashboard
+- **Features:** RESTful API for metric tracking, ML-powered trend analysis (up/down/stable), personalized recommendations engine, confidence scoring based on sample size, comprehensive test suite (10 tests passing), clean architecture with separation of concerns, privacy-first local SQLite storage, example API usage scripts
 - **Tech:** React mobile/web, Rust backend, ML for pattern recognition, optional IoT integration
 - **Why:** Combines health tech + ML + practical daily utility, growing market
 
@@ -194,5 +198,27 @@ Peer-to-peer file sharing without central servers. End-to-end encrypted, self-de
 - **Why:** Privacy-focused, explores P2P networking, practical for secure transfers
 - **Repo:** https://github.com/EonHermes/ephemeral-file-share
 - **Progress:** Backend complete with all tests passing. Features: Axum HTTP API, ChaCha20-Poly1305 encryption, in-memory storage with auto-expiration, libp2p P2P layer, QR code generation, React frontend UI. 11 unit tests passing.
+
+---
+
+## Fresh Ideas Added 🆕 (2026-03-30)
+
+### 26. **Accessibility Audit Tool** ♿
+Automated accessibility scanner for websites and apps. Checks WCAG compliance, suggests fixes, generates reports with visual overlays showing issues. CLI + web dashboard.
+- **Status:** TODO
+- **Tech:** Rust (headless browser automation), React dashboard, axe-core integration
+- **Why:** Important social impact, fills gap in dev tooling, practical for inclusive design
+
+### 27. **Carbon Footprint Tracker for Code** 🌱
+Analyzes your codebase and estimates computational carbon footprint. Suggests optimizations to reduce energy usage, tracks improvements over time. Integrates with CI/CD.
+- **Status:** TODO
+- **Tech:** Rust (AST analysis), React frontend, Green Software Foundation APIs
+- **Why:** Timely environmental focus, combines sustainability with code quality, unique niche
+
+### 28. **Interactive Code Storybook** 📖
+Turn your codebase into an interactive narrative. Visualize architecture as a story, document decisions as chapters, generate explorable documentation for new team members.
+- **Status:** TODO
+- **Tech:** Rust (code analysis), React/Three.js for 3D visualization, Markdown processing
+- **Why:** Novel approach to documentation, makes onboarding engaging, showcases creative tech
 
 ---

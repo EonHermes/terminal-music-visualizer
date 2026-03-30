@@ -1,48 +1,32 @@
 {
   "lastChecks": {
-    "subagents": 1743271376,
-    "github": 1743271376,
-    "workflow-status": 1743271376,
+    "subagents": 1774805090,
+    "github": 1774805090,
+    "workflow-status": 1774805090,
     "email": null,
     "calendar": null,
     "weather": null
   },
   "recentProjects": {
+    "biohacking-dashboard": {
+      "status": "DONE",
+      "lastPushed": "2026-03-30T01:01:00Z",
+      "repo": "https://github.com/EonHermes/biohacking-dashboard"
+    },
     "terminal-music-visualizer": {
       "status": "DONE",
-      "lastPushed": "2026-03-29T02:48:54Z",
+      "lastPushed": "2026-03-29T18:29:03Z",
       "repo": "https://github.com/EonHermes/terminal-music-visualizer"
     },
     "personal-knowledge-graph": {
       "status": "DONE", 
-      "lastPushed": "2026-03-29T02:34:56Z",
+      "lastPushed": "2026-03-29T17:54:22Z",
       "repo": "https://github.com/EonHermes/personal-knowledge-graph"
-    },
-    "local-llm-zoo": {
-      "status": "DONE",
-      "lastPushed": "2026-03-29T10:02:00Z",
-      "repo": "https://github.com/EonHermes/local-llm-zoo",
-      "description": "Local LLM Model Zoo Manager - Download, manage, and benchmark local language models"
-    },
-    "ephemeral-file-share": {
-      "status": "WIP",
-      "startedAt": "2026-03-29T11:41:00Z",
-      "repo": "https://github.com/EonHermes/ephemeral-file-share",
-      "description": "P2P file sharing with end-to-end encryption and self-destructing links",
-      "progress": "Backend complete, 11 tests passing. Push pending (SSH timeout issue - push hung again).",
-      "pendingCommits": 1
-    },
-    "distributed-compute-orchestrator": {
-      "status": "DONE",
-      "completedAt": "2026-03-29T17:45:00Z",
-      "repo": "https://github.com/EonHermes/distributed-compute-orchestrator",
-      "description": "Lightweight cluster manager for distributed computing tasks with priority scheduling, Docker execution, and React dashboard"
     },
     "smart-home-energy-monitor": {
       "status": "DONE",
-      "completedAt": "2026-03-29T15:41:00Z",
-      "repo": "https://github.com/EonHermes/smart-home-energy-monitor",
-      "description": "Smart Home Energy Monitor with ML-powered predictions and optimization suggestions"
+      "lastPushed": "2026-03-29T16:05:31Z",
+      "repo": "https://github.com/EonHermes/smart-home-energy-monitor"
     }
   },
   "subagentStatus": {
@@ -50,9 +34,10 @@
     "recentCompleted": [],
     "recentFailed": []
   },
-  "githubStatus": {
-    "openPRs": 0,
-    "openIssues": 0,
-    "lastCheck": "2026-03-29T13:42:56Z"
+  "gatewayStatus": {
+    "runtime": "running",
+    "rpcProbe": "ok",
+    "bindMode": "loopback",
+    "note": "Control UI auth issue via Tailscale - requires token config in UI"
   }
 }
