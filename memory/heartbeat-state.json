@@ -1,43 +1,13 @@
 {
   "lastChecks": {
-    "subagents": 1774805090,
-    "github": 1774805090,
-    "workflow-status": 1774805090,
     "email": null,
     "calendar": null,
     "weather": null
   },
-  "recentProjects": {
-    "biohacking-dashboard": {
-      "status": "DONE",
-      "lastPushed": "2026-03-30T01:01:00Z",
-      "repo": "https://github.com/EonHermes/biohacking-dashboard"
-    },
-    "terminal-music-visualizer": {
-      "status": "DONE",
-      "lastPushed": "2026-03-29T18:29:03Z",
-      "repo": "https://github.com/EonHermes/terminal-music-visualizer"
-    },
-    "personal-knowledge-graph": {
-      "status": "DONE", 
-      "lastPushed": "2026-03-29T17:54:22Z",
-      "repo": "https://github.com/EonHermes/personal-knowledge-graph"
-    },
-    "smart-home-energy-monitor": {
-      "status": "DONE",
-      "lastPushed": "2026-03-29T16:05:31Z",
-      "repo": "https://github.com/EonHermes/smart-home-energy-monitor"
-    }
-  },
-  "subagentStatus": {
-    "active": 0,
-    "recentCompleted": [],
-    "recentFailed": []
-  },
-  "gatewayStatus": {
-    "runtime": "running",
-    "rpcProbe": "ok",
-    "bindMode": "loopback",
-    "note": "Control UI auth issue via Tailscale - requires token config in UI"
+  "lastProjectCompletion": {
+    "project": "Interactive Code Storybook",
+    "completedAt": "2026-03-30T19:59:00Z",
+    "repo": "https://github.com/EonHermes/code-storybook",
+    "description": "Turn your codebase into an interactive narrative with 3D visualization. Features automatic code analysis, component classification, Three.js architecture visualization, chapter-based organization, dependency mapping, and complexity scoring. Rust backend with Axum, React/TypeScript frontend, 6 tests passing."
   }
 }
