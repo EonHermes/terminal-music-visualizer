@@ -5,9 +5,9 @@
     "weather": null
   },
   "lastProjectCompletion": {
-    "project": "Interactive Code Storybook",
-    "completedAt": "2026-03-30T19:59:00Z",
-    "repo": "https://github.com/EonHermes/code-storybook",
-    "description": "Turn your codebase into an interactive narrative with 3D visualization. Features automatic code analysis, component classification, Three.js architecture visualization, chapter-based organization, dependency mapping, and complexity scoring. Rust backend with Axum, React/TypeScript frontend, 6 tests passing."
+    "project": "Neural Style Transfer Studio",
+    "completedAt": "2026-03-30T21:59:00Z",
+    "repo": "https://github.com/EonHermes/neural-style-transfer",
+    "description": "Interactive web app for neural style transfer using VGG19 architecture. Rust/Axum backend with PyTorch (tch-rs) for deep learning inference, React/TypeScript frontend with beautiful dark theme. Features GPU acceleration via CUDA, customizable parameters (content weight, style weight, iterations, learning rate), preset artistic styles, RESTful API, comprehensive test suite. Fills computer vision gap in portfolio, combines art + ML, showcases GPU programming and ML deployment."
   }
 }

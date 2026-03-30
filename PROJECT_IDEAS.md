@@ -345,9 +345,20 @@ Visualize and analyze blockchain transactions from multiple chains (Bitcoin, Eth
 
 ### 37. **Neural Style Transfer Studio** 🎨🧠
 Interactive web app that applies artistic styles to photos using neural networks. Real-time preview, custom style training, batch processing. Export high-res results. Perfect for artists and photographers wanting AI-assisted creativity.
-- **Status:** TODO
-- **Tech:** Rust (torch-sys for PyTorch bindings), React frontend, WebAssembly for client-side inference, GPU acceleration
+- **Status:** DONE ✅
+- **Tech:** Rust (Axum backend, tch-rs/PyTorch), React/TypeScript frontend, GPU acceleration via CUDA
 - **Why:** Fills computer vision gap, combines art + ML, practical creative tool, showcases GPU programming and ML deployment
+- **Repo:** https://github.com/EonHermes/neural-style-transfer
+- **Features:** 
+  - Neural style transfer using VGG19 architecture for feature extraction
+  - RESTful API with endpoints for health check, style transfer, results retrieval, and preset styles
+  - Beautiful dark-themed React frontend with customizable parameters
+  - GPU acceleration support (automatic CUDA detection)
+  - Adjustable content weight, style weight, iterations, and learning rate
+  - Preset artistic styles (Starry Night, Girl with Pearl Earring, The Kiss, etc.)
+  - Comprehensive test suite for backend endpoints
+  - Clean architecture following Rust/React best practices
+  - Detailed README with API documentation and usage examples
 
 ### 38. **Distributed Key-Value Store** 🗄️
 Build your own Redis-like distributed key-value store from scratch. Consistent hashing, replication, fault tolerance, Raft consensus algorithm. CLI client + web admin panel. Perfect for learning distributed systems fundamentals.
