@@ -355,7 +355,7 @@ Host your own micro-APIs and share/sell them privately. Rate limiting, usage ana
 
 ### 36. **Blockchain Transaction Analyzer** 🔗
 Visualize and analyze blockchain transactions from multiple chains (Bitcoin, Ethereum). Detect patterns, track wallet histories, generate insights on spending behavior. Privacy-focused local analysis with optional public API integration.
-- **Status:** TODO
+- **Status:** WIP 🔨
 - **Tech:** Rust (async HTTP clients), React/TypeScript frontend, SQLite for caching, WebSockets for real-time updates
 - **Why:** Fills Web3 gap in portfolio, practical for crypto enthusiasts, showcases async programming and data visualization
 
@@ -403,5 +403,61 @@ Interactive educational platform demonstrating zero-knowledge proofs. Visual exp
   - Comprehensive test suite (backend + frontend)
   - GitHub Actions CI/CD pipeline with testing, linting, and security scanning
   - Clean architecture following Rust/React best practices
+
+---
+
+## Fresh Ideas Added 🆕 (2026-03-31 - Bi-Hourly Automation)
+
+### 41. **Infrastructure as Code Linter** 🔧
+Smart linter for Terraform, Ansible, and CloudFormation files. Detects security misconfigurations, cost optimization opportunities, and best practice violations. Visualizes resource dependencies and suggests refactors. CLI + VS Code extension.
+- **Status:** TODO
+- **Tech:** Rust (AST parsing), React dashboard, rule engine with customizable policies
+- **Why:** Fills DevOps gap, critical for cloud security, practical for teams using IaC
+
+### 42. **Edge Computing Framework** 🌐
+Lightweight framework for deploying ML models and logic to edge devices (Raspberry Pi, Jetson). Model quantization, automatic deployment, over-the-air updates. Perfect for IoT + AI at the edge.
+- **Status:** DONE ✅
+- **Tech:** Rust (Axum, Tokio), React (planned), MQTT, Docker integration
+- **Why:** Fills edge computing gap, combines ML with embedded systems, growing market
+- **Repo:** https://github.com/EonHermes/edge-compute-framework
+- **Features:** 
+  - Model management with versioning and metadata tracking
+  - Device discovery and registration with heartbeat monitoring
+  - Over-the-air deployment with progress tracking (Downloading→Installing→Verifying→Active)
+  - Model quantization support (INT8, INT16, FP16) with 4x size reduction for INT8
+  - Automatic rollback on failed deployments
+  - RESTful API with endpoints for devices, models, and deployments
+  - CLI tools for both edge-agent and edge-manager
+  - Comprehensive test suite (9 tests passing)
+  - Clean architecture following Rust/React best practices
+- **Progress:** Complete - all tests passing, deployed to GitHub
+- **Tech:** Rust, ONNX runtime, MQTT, Docker, React management dashboard
+- **Why:** Fills edge computing gap, combines ML with embedded systems, growing market
+
+### 43. **Chaos Engineering Toolkit** 💥
+Automated chaos testing for distributed systems. Inject failures (network latency, service crashes), measure system resilience, generate reports. Integrates with Kubernetes and Docker Compose.
+- **Status:** DONE ✅
+- **Tech:** Rust (Tokio, Axum), Docker (Bollard), Kubernetes (Kube), React dashboard
+- **Why:** Critical for production reliability, fills SRE tooling gap, showcases distributed systems expertise
+- **Repo:** https://github.com/EonHermes/chaos-engineering-toolkit
+- **Features:** Multiple chaos types (latency, packet loss, service kill, CPU/memory stress), real-time metrics collection, configurable alert thresholds, resilience scoring (0-100), text/JSON report generation, REST API, CLI interface, comprehensive test suite, CI/CD pipeline, safe mode for production
+- **Tech:** Rust (Tokio), Kubernetes API, Docker SDK, React dashboard for experiment management
+- **Why:** Critical for production reliability, fills SRE tooling gap, showcases distributed systems expertise
+
+### 44. **Synthetic Data Generator** 🎲
+Generate realistic synthetic datasets for testing ML models and applications. Preserves statistical properties while protecting privacy. Supports tabular, time-series, and text data. Great for GDPR-compliant development.
+- **Status:** DONE ✅
+- **Tech:** Rust (statrs for distributions), Axum API, differential privacy implementation
+- **Why:** Fills data engineering gap, critical for privacy-conscious ML development, practical for testing
+- **Repo:** https://github.com/EonHermes/synthetic-data-generator
+- **Features:** 
+  - Multiple data types: tabular (with configurable columns), time-series (trend/seasonal/random patterns), and text (topic-based documents)
+  - Statistical distributions: Uniform, Normal, Exponential, Poisson
+  - Differential privacy with Laplace and Gaussian mechanisms
+  - RESTful API with endpoints for dataset management and data generation
+  - In-memory storage with comprehensive CRUD operations
+  - 10 passing unit tests covering generator and privacy modules
+  - Clean architecture following Rust best practices
+  - Excellent README with API documentation and usage examples
 
 ---
