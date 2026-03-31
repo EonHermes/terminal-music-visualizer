@@ -136,7 +136,11 @@ AI that creates personalized learning paths based on your goals, current level, 
 
 ### 23. **Privacy-First Password Breach Monitor** 🔒
 Real-time monitoring of your passwords against known data breaches without sending plaintext passwords to any server. Uses k-anonymity API (like HaveIBeenPwned), local hashing, and secure alerts. Integrates with password managers.
-- **Status:** TODO
+- **Status:** DONE ✅
+- **Tech:** Rust, reqwest (rustls-tls), sha1, tokio
+- **Why:** Critical security utility, privacy-focused approach to breach monitoring, practical daily protection
+- **Repo:** https://github.com/EonHermes/password-breach-monitor
+- **Features:** k-anonymity protocol implementation, detailed breach information, risk assessment (Safe→Critical), password strength validation, batch processing, comprehensive test suite (35 tests passing), CLI + library modes, excellent documentation
 - **Tech:** Rust, cryptographic hashing (SHA-256, k-anonymity), React frontend, optional browser extension
 - **Why:** Critical security utility, privacy-focused approach to breach monitoring, practical daily protection
 
@@ -329,7 +333,19 @@ Analyzes git diffs and generates intelligent, conventional commit messages. Lear
 
 ### 35. **Personal API Marketplace** 🛒
 Host your own micro-APIs and share/sell them privately. Rate limiting, usage analytics, billing integration. Perfect for exposing personal tools as APIs to friends/family or monetizing side projects.
-- **Status:** TODO
+- **Status:** DONE ✅
+- **Tech:** Rust (Axum, SQLx), React/TypeScript, JWT auth, Governor rate limiting
+- **Why:** Entrepreneurial angle, practical for API economy, showcases backend + business logic
+- **Repo:** https://github.com/EonHermes/personal-api-marketplace
+- **Features:** 
+  - Secure JWT authentication with bcrypt password hashing
+  - Configurable rate limiting per endpoint and client
+  - Monetization support (per-call pricing & subscriptions)
+  - Usage analytics with detailed call logging
+  - Public marketplace for discovering APIs
+  - Beautiful dark-themed React UI
+  - Comprehensive test suite
+  - Clean Rust/React architecture
 - **Tech:** Rust (Axum), React dashboard, Stripe API, JWT auth, Docker deployment
 - **Why:** Entrepreneurial angle, practical for API economy, showcases backend + business logic
 

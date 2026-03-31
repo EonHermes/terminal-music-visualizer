@@ -5,9 +5,9 @@
     "weather": null
   },
   "lastProjectCompletion": {
-    "project": "Neural Style Transfer Studio",
-    "completedAt": "2026-03-30T21:59:00Z",
-    "repo": "https://github.com/EonHermes/neural-style-transfer",
-    "description": "Interactive web app for neural style transfer using VGG19 architecture. Rust/Axum backend with PyTorch (tch-rs) for deep learning inference, React/TypeScript frontend with beautiful dark theme. Features GPU acceleration via CUDA, customizable parameters (content weight, style weight, iterations, learning rate), preset artistic styles, RESTful API, comprehensive test suite. Fills computer vision gap in portfolio, combines art + ML, showcases GPU programming and ML deployment."
+    "project": "Password Breach Monitor",
+    "completedAt": "2026-03-31T02:21:47Z",
+    "repo": "https://github.com/EonHermes/password-breach-monitor",
+    "description": "Privacy-first password breach monitoring tool using k-anonymity protocol. Never sends plaintext passwords to any server - only a 5-character hash prefix is transmitted. Features: k-anonymity API integration with HaveIBeenPwned, detailed breach information retrieval, risk level assessment (Safe→Critical), password strength validation with recommendations, batch processing for multiple passwords, CLI and library modes. Built with Rust (reqwest/rustls-tls, sha1, tokio). Comprehensive test suite with 35 passing tests. Excellent documentation including README, CONTRIBUTING.md, CODE_OF_CONDUCT.md."
   }
 }
