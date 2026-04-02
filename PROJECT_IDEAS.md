@@ -252,7 +252,20 @@ AI-powered level generator for platformers/puzzle games. Creates balanced, playa
 
 ### 30. **Smart IoT Device Simulator** 🏠
 Simulate entire smart home ecosystems for testing without physical hardware. Create virtual devices (thermostats, lights, sensors) with realistic behavior patterns. Perfect for developing and testing IoT apps.
-- **Status:** TODO
+- **Status:** DONE ✅
+- **Tech:** Rust (Axum, Tokio), React dashboard, MQTT/WebSocket simulation, Docker containers
+- **Why:** Fills IoT gap, practical dev tool, enables testing without hardware investment
+- **Repo:** https://github.com/EonHermes/smart-iot-simulator
+- **Features:** 
+  - RESTful API with full CRUD operations for device management
+  - Six device types: Thermostat, Light, Sensor, Camera, Lock, Speaker
+  - Realistic behavior simulation with configurable patterns (update intervals, change probability)
+  - Location and type-based queries
+  - Default smart home simulation setup (7 devices across Living Room, Bedroom, Kitchen)
+  - Comprehensive test suite (10 tests passing)
+  - Docker support for easy deployment
+  - Clean Rust architecture following best practices
+  - Excellent README with API documentation and usage examples
 - **Tech:** Rust backend, React dashboard, MQTT/WebSocket simulation, Docker containers
 - **Why:** Fills IoT gap, practical dev tool, enables testing without hardware investment
 
@@ -497,6 +510,40 @@ Unified notification system that bridges all your platforms. Send a notification
 - **Features:** Multi-platform delivery (Discord/Slack/Telegram/Email/Webhooks), smart routing rules based on priority and tags, rich notifications with actions/images/formatting, clean Rust architecture, comprehensive test suite, Docker deployment support, excellent documentation with examples
 - **Tech:** Rust backend, React admin panel, multiple platform APIs, webhook support
 - **Why:** Practical utility for developers and ops teams, fills integration gap, daily use value
+
+---
+
+## Fresh Ideas Added 🆕 (2026-04-02 - Gap Analysis & Creative Expansion)
+
+### 53. **Voice Command Automation Hub** 🎤
+Natural language voice control for your computer and smart home. "Open my project," "Play lo-fi music," "Dim the lights" - all processed locally with privacy-first design. Supports custom commands, multi-step workflows, and context-aware responses. No cloud dependency required.
+- **Status:** WIP 🔨
+- **Tech:** Rust (speech recognition via Vosk/Whisper), local LLM for intent parsing, React dashboard, TTS integration
+- **Why:** Fills voice/AI gap in portfolio, practical hands-free control, privacy-focused alternative to Alexa/Google Home
+
+### 54. **Computer Vision Object Tracker** 👁️
+Real-time object detection and tracking using your webcam or video files. Track multiple objects, analyze movement patterns, detect anomalies. Perfect for security monitoring, sports analysis, or just fun experiments with computer vision. Export data for further analysis.
+- **Status:** DONE ✅
+- **Tech:** Rust (Axum backend, OpenCV bindings, YOLO/ONNX Runtime), React dashboard, GPU acceleration support
+- **Why:** Fills advanced CV gap beyond style transfer, practical security/analysis use cases, showcases real-time ML deployment
+- **Repo:** https://github.com/EonHermes/computer-vision-object-tracker
+- **Features:** 
+  - RESTful API with session management for tracking multiple video streams
+  - YOLO11n model integration via ONNX Runtime for 80-class COCO object detection
+  - Multi-object tracking with IoU-based association and automatic ID assignment
+  - Real-time processing support (~30 FPS CPU, ~120 FPS GPU)
+  - Beautiful React dashboard for visualizing detections and tracks
+  - Comprehensive test suite (unit + integration tests)
+  - Docker deployment with multi-stage build
+  - GitHub Actions CI/CD pipeline (test, clippy, fmt, security audit)
+  - Clean architecture following Rust/React best practices
+- **Progress:** Complete - initial release with full API functionality, frontend dashboard, comprehensive documentation, and CI/CD pipeline
+
+### 55. **Retro Game Emulator with Modern Features** 🎮✨
+Modern emulator for classic consoles (NES, SNES, Game Boy) with enhanced features: save states in cloud, rewind, cheat code manager, online multiplayer via WebRTC, and beautiful shader effects. Open-source alternative to commercial emulators with privacy focus.
+- **Status:** TODO
+- **Tech:** Rust (emulation cores), React frontend, WebAssembly for browser version, WebRTC for multiplayer
+- **Why:** Fills gaming nostalgia gap, combines retro computing with modern tech, fun project with broad appeal
 
 ---
 
