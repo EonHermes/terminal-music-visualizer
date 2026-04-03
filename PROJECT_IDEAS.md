@@ -491,7 +491,7 @@ Generate realistic synthetic datasets for testing ML models and applications. Pr
 
 ### 50. **Developer Onboarding Assistant** 🎓
 Interactive tool that helps new developers understand unfamiliar codebases. Generates guided tours through architecture, creates "learning paths" through the code, answers questions about specific modules, and suggests where to start contributing. Perfect for open source projects or team onboarding.
-- **Status:** TODO
+- **Status:** WIP 🔨
 - **Tech:** Rust (code analysis), local LLM, React interactive walkthroughs, graph visualization
 - **Why:** Solves real pain point in software teams, combines code analysis with AI guidance, practical dev tool
 
@@ -545,6 +545,58 @@ Modern emulator for classic consoles (NES, SNES, Game Boy) with enhanced feature
 - **Tech:** Rust (emulation cores), React frontend, WebAssembly for browser version, WebRTC for multiplayer
 - **Why:** Fills gaming nostalgia gap, combines retro computing with modern tech, fun project with broad appeal
 
+### 56. **Haptic Feedback Music Controller** 📱🎵
+Mobile app that transforms your phone into a haptic music controller. Syncs vibration patterns to audio frequencies, creating tactile experiences for music listening. Supports custom haptic choreography, works with any music source. Perfect for immersive music experiences and accessibility.
+- **Status:** WIP 🔨
+- **Tech:** React Native, Rust backend (audio analysis), WebAudio API, mobile haptic APIs
+- **Why:** Novel intersection of audio + haptics, accessible music experience, fills mobile gap
+
+### 57. **Blockchain Academic Credential Verifier** 🎓🔗
+Decentralized system for issuing and verifying academic credentials on-chain. Universities issue tamper-proof diplomas as NFTs, employers verify instantly without contacting schools. Privacy-preserving zero-knowledge proofs for selective disclosure.
+- **Status:** WIP 🔨
+- **Tech:** Rust (smart contracts via ink!/substrate), React frontend, IPFS for document storage, zk-SNARKs for privacy
+- **Why:** Solves real credential fraud problem, combines blockchain with practical utility, social impact
+
+### 58. **AR Interior Design Planner** 🏠📱
+Mobile AR app that lets you visualize furniture and decor in your actual space before buying. Scan rooms, place 3D models from major retailers, measure accurately, share designs with friends. AI suggests color schemes and layouts based on your style.
+- **Status:** DONE ✅
+- **Tech:** Rust (Axum backend), React Native (planned), ARKit/ARCore, Three.js
+- **Why:** Practical daily utility, fills mobile AR gap, combines computer vision with e-commerce
+- **Repo:** https://github.com/EonHermes/ar-interior-design-planner
+- **Features:** 
+  - RESTful API for room management (create, update, delete rooms with dimensions and style preferences)
+  - Furniture catalog with search by category, style, and price range
+  - Design creation with furniture placements (position, rotation)
+  - AI-powered recommendations based on room style and existing pieces
+  - Pre-designed color schemes for different interior styles
+  - Comprehensive test suite with 8+ tests
+  - Clean Rust/Axum architecture following best practices
+- **Progress:** Backend API complete with all endpoints implemented, deployed to GitHub
+- **Tech:** React Native, ARKit/ARCore via react-native-ar, Rust backend for recommendations, 3D rendering (Three.js)
+- **Why:** Practical daily utility, fills mobile AR gap, combines computer vision with e-commerce
+
+### 59. **Neural Interface Game Controller** 🧠🎮
+Use affordable EEG headsets to control games with brainwaves! Detect focus levels, mental commands (imagine left/right), and relaxation states to map to game actions. Open-source alternative to commercial BCI gaming. Includes calibration, training mode, and multiple game integrations.
+- **Status:** DONE ✅
+- **Tech:** Rust (Axum, Tokio, rustfft, ndarray), React (planned)
+- **Why:** Cutting-edge brain-computer interface, highly novel, combines neuroscience with gaming, technical challenge with signal processing and ML
+- **Repo:** https://github.com/EonHermes/neuro-game-controller
+- **Features:** 
+  - FFT-based EEG frequency analysis (Delta, Theta, Alpha, Beta, Gamma bands)
+  - Multi-device support (OpenBCI, Muse, Muse S, Muse 2, Emotiv EPOC)
+  - Mental command detection and training system
+  - Focus & relaxation level tracking with user calibration
+  - Game action mapping with configurable sensitivity and debouncing
+  - RESTful API with Axum framework
+  - WebSocket support for real-time brain state streaming
+  - Comprehensive test suite with signal processing and game mapping tests
+  - CI/CD pipeline with GitHub Actions (test, clippy, fmt, security audit)
+  - Clean architecture following Rust best practices
+  - Excellent README with API documentation and integration examples (Unity C#, Python)
+- **Progress:** Complete - initial release with full backend functionality, deployed to GitHub
+- **Tech:** Rust (signal processing, FFT), React dashboard, WebSocket for real-time data, EEG headset APIs (OpenBCI, Muse)
+- **Why:** Cutting-edge brain-computer interface, highly novel, combines neuroscience with gaming, technical challenge with signal processing and ML
+
 ---
 
 ### 45. **Quantum Circuit Simulator & Visualizer** ⚛️
@@ -555,7 +607,7 @@ Interactive quantum computing simulator with beautiful circuit visualizations. B
 
 ### 46. **AI-Powered Code Migration Tool** 🔄
 Automatically migrate codebases between languages/frameworks. Rust→Rust (refactor), Python→Rust (performance), React→Svelte (modernization). Preserves logic while adapting to idioms. Includes diff viewer and rollback support.
-- **Status:** TODO
+- **Status:** WIP 🔨
 - **Tech:** Rust (AST parsing, code generation), local LLM for semantic understanding, React diff UI
 - **Why:** Massive time-saver for legacy modernization, combines AI with deep code analysis
 
