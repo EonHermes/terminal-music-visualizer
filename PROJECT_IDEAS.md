@@ -646,3 +646,47 @@ Browser-based collaborative code editor (like Google Docs for code) with built-i
 - **Why:** Ultimate developer collaboration tool, combines multiple hot technologies, practical for remote teams
 
 ---
+
+## Fresh Ideas Added 🆕 (2026-04-03 - Bi-Hourly Automation Gap Analysis)
+
+### 60. **Podcast Production Studio** 🎙️
+All-in-one podcast editing suite with AI-assisted workflows. Auto-remove silence, normalize audio levels, generate show notes from transcript, create audiograms (video clips with waveforms). Batch process episodes, export to multiple formats. Perfect for content creators.
+- **Status:** DONE ✅
+- **Tech:** Python/FastAPI, pydub, Whisper, SQLAlchemy
+- **Why:** Fills audio production gap, booming podcast market, combines signal processing with AI automation
+- **Repo:** https://github.com/EonHermes/podcast-production-studio
+- **Features:** 
+  - RESTful API with episode management (upload, list, delete)
+  - Whisper integration for automatic transcription
+  - AI-powered show notes generation with topics and key moments
+  - Audio processing: silence removal, normalization
+  - Waveform extraction for visualization
+  - Python SDK client for easy integration
+  - Comprehensive test suite with unit tests
+  - Clean architecture following best practices
+  - Excellent README with API documentation and usage examples
+- **Progress:** Complete - initial release deployed to GitHub
+- **Tech:** Rust (audio processing via rodio/hound), React waveform editor, local LLM for transcription/show notes, FFmpeg integration
+- **Why:** Fills audio production gap, booming podcast market, combines signal processing with AI automation
+
+### 61. **Network Security Scanner** 🔒🌐
+Personal network security auditor that scans your home/lab for vulnerabilities. Detects open ports, outdated services, weak encryption, misconfigured firewalls. Generates actionable reports with fix recommendations. Schedule regular scans, track improvements over time.
+- **Status:** DONE ✅
+- **Tech:** Rust (async socket scanning), Axum API, SQLite for historical tracking, vulnerability database
+- **Why:** Critical security utility, fills pentesting gap in portfolio, practical for home lab enthusiasts
+- **Repo:** https://github.com/EonHermes/network-security-scanner
+- **Features:** Port scanning for 30+ common services, vulnerability detection (insecure protocols, exposed databases), risk scoring (0-100), actionable recommendations, RESTful API with full CRUD, comprehensive test suite, GitHub Actions CI/CD pipeline, excellent documentation
+
+### 62. **Personal Data Pipeline Orchestrator** 🔄
+No-code ETL tool for personal data engineering. Connect APIs (Spotify, GitHub, Strava), transform data with visual workflow builder, load to SQLite/PostgreSQL. Schedule recurring syncs, monitor failures, export to CSV/Parquet. Perfect for building personal analytics dashboards.
+- **Status:** TODO
+- **Tech:** Rust (backend orchestration), React visual workflow editor, SQLite/PostgreSQL, 50+ pre-built connectors
+- **Why:** Fills data engineering gap, empowers non-devs to build data pipelines, practical for data enthusiasts
+
+### 63. **Procedural Texture Generator** 🎨🔲
+Generate seamless, tileable textures for games and 3D projects using procedural algorithms. Wood, stone, metal, fabric - all customizable with noise functions, layering, and post-processing. Export to PNG/TGA, integrate with Blender/Maya via API. Real-time preview with PBR material support.
+- **Status:** TODO
+- **Tech:** Rust (wgpu for GPU-accelerated generation), React/Three.js previewer, OpenColorIO for color management
+- **Why:** Fills game dev tooling gap, complements procedural level generator, practical for indie developers and 3D artists
+
+---
